@@ -1,2 +1,34 @@
 hi
 https://gist.github.com/smalinux/ec04951919ce4316643b253942622bb5
+
+```
+fizzie
+The word is "compound assignment".
+And the full list of compound assignment operators is *= /= &= += -= <<= >>= &= ^= |=.
+One of those two &=s was supposed to be %=.
+(Of course you could have just written `j = j << 2` too.)
+```
+
+
+```
+i have a basic statement like this for(int j = 0x10; j <= HEARTS + 1; j << 2) {
+and i'd like to bitshift j each time
+but the compiler warns that j << 2 does nothing
+
+because:
+you need a equal sign
+j <<= 2
+or
+j = j << 2
+```
+
+```
+Google: libclang
+llvm?? clang??
+```
+
+```
+A garbage collector for C and C++
+
+https://www.hboehm.info/gc/
+```
