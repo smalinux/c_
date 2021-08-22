@@ -32,3 +32,34 @@ A garbage collector for C and C++
 
 https://www.hboehm.info/gc/
 ```
+
+```
+Freestanding and hosted implementations
+
+https://en.cppreference.com/w/cpp/freestanding#:~:text=Under%20a%20freestanding%20implementation%2C%20it,than%20one%20thread%20running%20concurrently.
+```
+
+```
+Atomic types
+```
+
+#### Type qualifiers
+https://www.ibm.com/docs/en/xl-c-aix/13.1.2?topic=declarations-type-qualifiers
+volatile: https://en.cppreference.com/w/c/language/volatile
+const: https://en.cppreference.com/w/c/language/const
+restrict: https://en.cppreference.com/w/c/language/restrict
+atomic: https://en.cppreference.com/w/c/language/atomic
+
+
+
+### Links
+https://news.ycombinator.com/item?id=11606296
+https://news.ycombinator.com/item?id=24361469
+
+
+### Concepts
+Atomic types
+Qualifier type
+memory_order_seq_cst
+lvalue
+a complete object type
