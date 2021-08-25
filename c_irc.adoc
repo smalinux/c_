@@ -1,0 +1,10 @@
+Unit testing
+==================================
+exceptions4c
+https://github.com/guillermocalvo/exceptions4c
+greatest
+https://github.com/silentbicycle/greatest
+CUnit
+http://cunit.sourceforge.net/
+Criterion
+https://github.com/Snaipe/Criterion
