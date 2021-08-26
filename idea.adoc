@@ -1,0 +1,8 @@
+Make your own PDF reader in C language
+Make your own Chat app in C language
+Make your own Database in C language
+
+the goal from all these not to make a real product, real product need you to
+think from business respective, the goal is to make an idea from nothing,,
+from ground_up,, to own the skill of creating (like god!) thing from your mind :)
+
