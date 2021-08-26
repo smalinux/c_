@@ -1,2 +1,5 @@
 htop IRC bot :)
 https://github.com/kongr45gpen/supybot-github
+
+Request for Comments
+https://en.wikipedia.org/wiki/List_of_RFCs
