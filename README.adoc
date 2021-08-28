@@ -63,3 +63,36 @@ Qualifier type
 memory_order_seq_cst
 lvalue
 a complete object type
+
+
+### What you should know about automated software testing
+https://github.com/shlomif/what-you-should-know-about-automated-testing
+also learn to make CI tests for GitHub :)
+
+### GNU C extension not a C standard...
+https://gcc.gnu.org/onlinedocs/gcc/C-Extensions.html
+pragma-: yes, i wont use any GNU extensions unless absolutely necessary..
+
+
+Google: __memmove_ssse3_back_to_sse2
+
+sometimes the only documentation available for you is the codebase!
+
+what that mean ??!!
+,english short sign = foo[1,-1][s[i++] == '-'];
+
+
+Read later: https://stackoverflow.com/q/949433/5688267
+Read later: https://stackoverflow.com/questions/12590255/what-does-stdc-iso-10646-exactly-mean
+
+<complex.h>
+<tgmath.h>
+
+Google & research: __STDC_NO_COMPLEX__
+and back to #ModernC
+
+Google & research: "cmplx" stackoverflow
+and back to #ModernC
+
+Google & research: comma operator c programming
+and back to #ModernC

@@ -1,0 +1,4 @@
+candide: ,english char(*x)[]
+
+candide for fun:
+,english /* lol */ 2 + 2; // make 4
