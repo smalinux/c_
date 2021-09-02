@@ -4,7 +4,9 @@ all:
 	gcc expressions.c -o expressions.o
 	gcc list.c -o list.o
 	gcc main.c -o main.o
+	gcc modernc_pointers.c -o modernc_pointers.o
 	gcc values.c -o values.o
 	gcc -Wall -Wextra modernc_functions.c -o modernc_functions.o
 clean:
 	rm *.o
+	rm *.out
