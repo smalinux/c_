@@ -96,3 +96,23 @@ and back to #ModernC
 
 Google & research: comma operator c programming
 and back to #ModernC
+
+https://en.cppreference.com/w/c/language/storage_duration
+
+Google: __VA_ARGS__
+
+https://stackoverflow.com/q/37970758/5688267
+
+https://ramblings.implicit.net/c/2014/04/20/c-is-not-a-try-it-and-see-language.html
+
+https://ramblings.implicit.net/
+
+https://stackoverflow.com/q/2454474/5688267
+
+https://accu.org/journals/overload/14/71/miller_2004/
+
+https://stackoverflow.com/q/246127/5688267
+
+IBM https://www.ibm.com/docs/en/i/7.4?topic=functions-printf-print-formatted-characters
+
+https://en.cppreference.com/w/c/preprocessor/replace
