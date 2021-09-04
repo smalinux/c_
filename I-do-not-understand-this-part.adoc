@@ -1,0 +1,9 @@
+### Page 170 - ModernC
+```
+In the previous example, we have three string literals and two compound literals.
+These are all object literals, and they are read-only: string literals are read-only by definition, and the two compound literals are const-qualified. Four of them have exactly the
+same base type and content ('e', 'n', 'd', '\0'), so the four pointers c, d, f, and g
+may all be initialized to the same address of one char array. The compiler may even save
+more memory: this address may just be &e[3], by using the fact that end appears at the
+end of friend.
+```
