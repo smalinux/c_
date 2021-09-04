@@ -9,6 +9,7 @@ all:
 	gcc shadowed.c -o shadowed.o
 	gcc shadowed_2.c -o shadowed_2.o
 	gcc shadowed_3.c -o shadowed_3.o
+	gcc linker.c -o linker.o
 	gcc -Wall -Wextra modernc_functions.c -o modernc_functions.o
 clean:
 	rm *.o
