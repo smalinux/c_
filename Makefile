@@ -1,5 +1,5 @@
 all:
-	gcc temp.c -o temp.o
+	-gcc temp.c -o temp.o
 	gcc -Wall -Wextra modernc_functions.c -o modernc_functions.o
 	gcc atomic.c -o atomic.o -pthread
 	gcc ca.c -o ca.o # compound assignment
