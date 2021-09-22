@@ -1,3 +1,23 @@
+👉 My Ultimate Content:
+OOC:
+best place to start from: https://stackoverflow.com/questions/tagged/c%2boop?tab=Votes
+
+Concurrency
+Synchronization
+Thread Execution
+Thread Synchronization
+Process Execution
+Process Synchronization
+Single-Host IPC and Sockets
+Socket Programming
+Integration with Other Languages
+Unit Testing and Debugging
+Build Systems
+
+
+
+
+
 hi
 https://gist.github.com/smalinux/ec04951919ce4316643b253942622bb5
 

@@ -1,0 +1,29 @@
+MrMobius: what's the difference between int foo(int[]) and int foo(int*)?
+
+euouae: I believe that there is no difference MrMobius
+
+fizzie:
+There's no difference, since it's a function parameter declaration. C11 6.7.6.3p7: "A declarator fo a parameter as 'array of /type/' [like `int[]`] shall be adjusted to 'qualified pointer to /type/' [in other words, `int *`], where the type qualifiers (if any) are those specified within the [ and ] of the array type derivation."
+s/fo/of/
+
+floatcomplex: int foo(int[static 8]) is more interesting
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ here is some talk i don't understand becauseOf/after this line.
+
+===
+
+int rotateread( size_t portion_size, size_t * offset, size_t * roto_offset, size_t linelen, size_t * roto_linelen, time_t * rotated_hour, char* directory, char* file, char** roto_file, char* line, char** roto_line, char * host, char * ip, char * rotofile, char * roto_filemask, double mtime, double * roto_mtime, double prev_modtime, unsigned long long inode, long * linenums, long * roto_linenums, int s, int rotatetype, int net_timeout, int * roto_flag, int ro
+tation_hours, int log_delete_hours, FILE ** rp );
+
+caze: lol wtf
+ozzz: the prototype :D
+caze: Ever heard of structs?
+
+===
+
+pragma-: ,tias
+candide:
+"Try It And See" may work in other languages, but not in C due to the nature of undefined behavior/unportable code. Such coding-by-experimentation often leads to situations such as "But it worked fine earlier!" and/or "But it worked on my machine!". https://ramblings.implicit.net/c/2014/04/20/c-is-not-a-try-it-and-see-language.html
+
+===
+
+

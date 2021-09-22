@@ -1,0 +1,18 @@
+
+The Environment
+   • a package manager, for external C libraries
+   gdb • a debugger (standalone or within an IDE)
+   • tools for debugging, documenting, and testing
+   • Autotools, a system for packaging your code for distribution.
+   Git • Nothing complicates life like other people.
+   • Valgrind
+   • gprof
+   • make
+   • pkg-config, for finding libraries.
+   • Doxygen, for documentation generation
+   • Autotools: Autoconf, Automake, libtool
+   • Git
+   • zsh
+
+Countless of libraries:
+• libcURL • libGlib • libGSL • libSQLite3 • libXML2

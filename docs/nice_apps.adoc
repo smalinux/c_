@@ -1,0 +1,10 @@
+weechat
+htop
+i3 https://github.com/i3/i3
+mustt https://gitlab.com/muttmua/mutt
+Irssi
+Suckless
+Rofi: A window switcher
+i3 gaps https://github.com/Airblader/i3
+services like HTTPD, Postfix, nfsd, ftpd
+C libraries such as OpenSSL and OpenCV
