@@ -11,5 +11,15 @@
 void hi(void) {
    puts("hi soso");
 }
+
 // ----------------------------------------------------------------------------
+
+/*
+ * arrLen(arr)
+ *
+ * get array length
+ * Ref: https://stackoverflow.com/a/37539/5688267
+ */
+#define arrLen(arr) sizeof(arr)/sizeof(arr[0])
+
 #endif
