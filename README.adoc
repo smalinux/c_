@@ -1,6 +1,6 @@
 👉 My Ultimate Content:
 OOC:
-best place to start from: https://stackoverflow.com/questions/tagged/c%2boop?tab=Votes
+best place to start from: https://stackoverflow.com/questions/tagged/c%20oop%20-c%2b%2b
 
 Concurrency
 Synchronization
@@ -15,8 +15,115 @@ Unit Testing and Debugging
 Build Systems
 
 
+TODO books to read:
+- Modern C
+- 21st Century C
+- Axel Schreiner - "Object-oriented Programming in ANSI-C"
+
+# Not C related:
+- Michael Feather's book "Working Effectively with Legacy Code"
 
 
+// ----------------------------------------------------------------------------
+👉 The list:
+- Read linux kernel codestyle doc & contribute...
+
+
+
+👉 Tools:
+- git ecosystem
+- GDB
+- gprof
+- Valgrind
+- Unit testing:
+   -- harness
+   -- Coverage
+- Doxygen
+
+👉 References:
+- https://clang.llvm.org/docs/index.html
+
+👉 Unit testing:
+- cmocka      :https://www.google.com/search?q=cmocka+tutorial
+
+AceUnit <<
+- GNU Autounit
+- CHEAT
+- CMock
+- CUnit
+- Check
+- Criterion
+- Cutest <<
+- Nala
+- Rexo
+- Tau
+- Unity <<<<
+- ciut
+- clar
+- cmocka
+- ctest
+- greatest
+- minctest
+- minunit <<<<
+- munit
+- theft
+- utest
+- embUnit <<
+- HWUT
+- CGreen
+- https://github.com/google/googletest
+
+@ref:
+https://stackoverflow.com/questions/tagged/unit-testing%2bc?tab=Votes
+https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#C
+
+
+
+
+👉 awesome-c:
+https://github.com/oz123/awesome-c
+https://github.com/inputsh/awesome-c
+
+doxygen : https://embeddedinventor.com/guide-to-configure-doxygen-to-document-c-source-code-for-beginners/
+
+👉 Keywords:
+- YouTube: "lex yacc"
+- "mmap" <sys/mman.h>
+
+👉 libraries:
+- libcurl (recommended by 21 Century C)
+- GLib (recommended by 21 Century C)
+- Sqlite (recommended by 21 Century C)
+- GNU Scientific Library (recommended by 21 Century C)
+- libxml2 (recommended by 21 Century C)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ----------------------------------------------------------------------------
+
+c mixed with python:
+https://github.com/pyliaorachel/python-c-mixing
 
 hi
 https://gist.github.com/smalinux/ec04951919ce4316643b253942622bb5
@@ -136,3 +243,5 @@ https://stackoverflow.com/q/246127/5688267
 IBM https://www.ibm.com/docs/en/i/7.4?topic=functions-printf-print-formatted-characters
 
 https://en.cppreference.com/w/c/preprocessor/replace
+
+https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/functions/contents.html
