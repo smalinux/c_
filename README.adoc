@@ -52,32 +52,40 @@ AceUnit <<
 - CMock
 - CUnit
 - Check
-- Criterion
-- Cutest <<
+- Criterion ✔️
+- Cutest ✔️
 - Nala
 - Rexo
 - Tau
-- Unity <<<<
+- Unity ✔️
 - ciut
 - clar
 - cmocka
 - ctest
 - greatest
 - minctest
-- minunit <<<<
+- minunit ✔️
 - munit
 - theft
 - utest
-- embUnit <<
+- embUnit ✔️
 - HWUT
 - CGreen
+- CppUTest
+- 📌 kselftest
 - https://github.com/google/googletest
 
 @ref:
 https://stackoverflow.com/questions/tagged/unit-testing%2bc?tab=Votes
 https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#C
 
-
+👉 unit testing for embedded:
+# barebox ueses:
+- ✔️
+-
+# xx use:
+-
+-
 
 
 👉 awesome-c:
