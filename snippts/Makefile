@@ -6,6 +6,8 @@ all:
 	gcc comments.c -o comments.o
 	gcc expressions.c -o expressions.o
 	gcc format.c -o format.o
+	gcc func_declarations.c -o func_declarations.o
+	gcc inline.c -o inline.o
 	gcc linker.c -o linker.o
 	gcc list.c -o list.o
 	gcc main.c -o main.o
@@ -16,7 +18,8 @@ all:
 	gcc shadowed_2.c -o shadowed_2.o
 	gcc shadowed_3.c -o shadowed_3.o
 	gcc sizeOfPointer.c -o sizeOfPointer.o
-	gcc test_smalib.c -o test_smalib.o
+	#gcc typedef.c -o typedef.o
+	#gcc noreturn.c -o noreturn.o
 	gcc values.c -o values.o
 clean:
 	rm *.o
