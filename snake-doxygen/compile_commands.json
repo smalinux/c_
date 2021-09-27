@@ -1,0 +1,35 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-o",
+            "snake",
+            "src/main.c"
+        ],
+        "directory": "/home/smalinux/c_/snake-doxygen",
+        "file": "src/main.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-o",
+            "snake",
+            "src/frontend.c"
+        ],
+        "directory": "/home/smalinux/c_/snake-doxygen",
+        "file": "src/frontend.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-o",
+            "snake",
+            "src/backend.c"
+        ],
+        "directory": "/home/smalinux/c_/snake-doxygen",
+        "file": "src/backend.c"
+    }
+]
