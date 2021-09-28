@@ -1,11 +1,24 @@
+ /** @file backend.c
+ *
+ * file specific comment
+ *
+ * Documentation that will occur on another page. MainSohaib :)
+ * Documentation that will occur on another page. MainSohaib :)
+ *
+ */
 #include "backend.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 #include <time.h>
 
-/*
+
+/**
  * Removes from the list or returns false
+ *
+ * This is the typical JavaDoc-style C-style comment. It starts with two
+ * asterisks.
+ * @param PointList* [int] this do this and that ..
  */
 bool remove_from_list(PointList* elt, PointList** list) {
   PointList *currP, *prevP;
@@ -144,6 +157,13 @@ Board* create_board(PointList* snake, PointList* foods, int xmax, int ymax) {
   return board;
 }
 
+/**
+ * create_snake function
+ *
+ * lololo
+ *
+ * lololo
+ */
 PointList* create_snake() {
   PointList* a = create_cell(2,3);
   PointList* b = create_cell(2,2);
@@ -151,3 +171,10 @@ PointList* create_snake() {
   return a;
 }
 
+/**
+ * Show this function for Doxygen? NO. because static
+ *
+ */
+static int myBackEndTest(int x) {
+   return 0;
+}

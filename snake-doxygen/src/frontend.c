@@ -1,3 +1,7 @@
+/*! \file frontend.c
+ *  Nice frontend code
+ *  \verbinclude frontend.c
+ */
 #include <ncurses.h>
 #include "backend.h"
 #include "frontend.h"
