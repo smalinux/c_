@@ -1,0 +1,75 @@
+
+
+
+### fix indentations
+```
+/home/smalinux/linux-stable/scripts/Lindent file.c
+```
+
+
+### Write useful commit message
+```
+cd linux/dir
+git log fileName.c
+
+# IF you want just commit messages
+git log --pretty=oneline fs_parser.c
+# copy on of these format and modify if...
+```
+
+### format-patch
+```
+....git add .....
+....git commit....
+git format-patch master..myLocalBranchName
+# or
+git format-patch -1
+# -1 one commit from the top = last commit
+```
+
+### checkpatch.pl
+```
+./checkpatch.pl -f file.c
+# or
+./checkpatch.pl -f 0001-patch-name
+```
+
+### see also
+```
+checkincludes.pl
+checkdeclares.pl
+check<tab><tab>
+```
+
+### get maintainer
+```
+# MUST: make sure that get_maintainer.pl working will first
+cd linux/
+./scripts/get_maintainer.pl -norolestats fs/0001-Enable-Werror-by-default-for-all-kernel-builds.patch
+
+```
+
+### send the patch
+```
+# mv the patch to home ~/linux-torvalds
+cd fs/0001-Enable-Werror-by-default-for-all-kernel-builds.patch ~/linux-torvalds/
+git send-email --cc-cmd=sohaib.amhmd@gmail.com --cc-cmd='./scripts/get_maintainer.pl -norolestats 0001-your-patch.patch' 0001-your-patch.patch
+# don't worry - while using git send-email will show you a preview for you email
+```
+
+### check staging (nice place for searching about not ready yet code)
+```
+ch ~/linux-torvalds/staging/
+# also
+ch ~/linux-stable/drivers/staging/
+
+find ./ -iname "TODO"
+```
+
+
+## Commit message template
+```
+staging: android: ashmem: Declared file operation with const keyword
+Desc:
+Warning found by checkpatch.pl
+```
